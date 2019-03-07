@@ -1,0 +1,82 @@
+body {background-color: #efeee7;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #333333;
+   margin: 0;
+    padding: 0;
+  }
+
+#name {
+  float: left;
+  color: #fff;
+  background-color: #4aaaa5;
+  margin-left:45px;
+  margin-top:0;
+  margin-bottom:-10px; 
+}
+
+h1 {color: #eee;
+ font-size: 28px;
+ text-align: left;
+ padding: 20px;
+}
+
+
+h2 {font-size: 24px;
+    color: #1ba38c; }
+
+.container {
+ width: 80%;
+ margin: 50px;
+ background-color: white;
+ padding: 10px;
+ /* border: 1px solid red; */
+height: 100%;
+}
+
+#contact-info {float: left;
+ width:30%;
+line-height: 1.5em;
+}
+#bio-image {float: right;
+  margin-right: 20px}
+
+ :any-link { color: #d21034 }
+footer{ 
+  clear: both;
+  padding: 10px;
+  background-color: #999999;
+  color: white;
+  text-align: right;
+}
+
+.menue{
+  float: right;
+}
+
+.about-image {
+  float: left;
+  margin-left:30px;
+  margin-right:30px;
+}
+
+nav {
+  /* width: 100%; */
+  overflow: auto;
+  background-color: #fff;
+}
+.menue a{
+  float: right;
+  padding: 10px;
+  margin: 20px;
+}
+.grid-item{
+width: 200px;
+height:200px;
+border: solid;
+display: inline-block;
+margin:30px;
+background-color: red;
+}
+.form{
+width: 50%;
+}
